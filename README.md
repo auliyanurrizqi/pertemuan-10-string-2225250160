@@ -7,8 +7,8 @@ menggunakan Python.
 
 ## Identitas Mahasiswa
 
-- **Nama:** [Isi Nama Kamu]
-- **NIM:** [Isi NIM Kamu]
+- **Nama:** Aulia Nurrizqi
+- **NIM:** 2225250160
 - **Program Studi:** S1 Pendidikan Matematika
 - **Mata Kuliah:** Algoritma dan Pemrograman
 - **Pertemuan:** 10
