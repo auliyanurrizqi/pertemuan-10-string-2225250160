@@ -1,0 +1,41 @@
+  JAWABAN KUIS FORMATIF
+
+1. Apa perbedaan string dan list pada Python?
+
+String adalah tipe data untuk menyimpan teks berupa urutan karakter, sedangkan list adalah struktur data untuk menyimpan kumpulan elemen yang dapat berupa berbagai tipe data. String bersifat immutable (tidak dapat diubah langsung), sedangkan list bersifat mutable (dapat diubah).
+
+2. Mengapa string disebut immutable?
+
+String disebut immutable karena karakter di dalamnya tidak dapat diubah secara langsung setelah string dibuat. Jika ingin mengubah teks, kita perlu membentuk string baru menggunakan operasi atau method string.
+
+3. Apa hasil dari 'Python'[1:4]?
+
+Hasilnya adalah 'yth'. Slicing dimulai dari indeks 1, yaitu karakter 'y', dan berhenti sebelum indeks 4.
+
+4. Apa fungsi strip()?
+
+Method strip() digunakan untuk menghapus spasi atau karakter whitespace di bagian awal dan akhir string, bukan spasi yang berada di tengah teks.
+
+5. Kapan lower() lebih tepat daripada title()?
+
+lower() lebih tepat digunakan ketika teks perlu diseragamkan menjadi huruf kecil, misalnya sebelum membandingkan kata agar tidak terpengaruh perbedaan kapitalisasi. title() digunakan ketika ingin membuat huruf awal setiap kata menjadi kapital.
+
+6. Apa perbedaan split() dan join()?
+
+split() memecah string menjadi sebuah list berdasarkan pemisah tertentu. Sebaliknya, join() menggabungkan elemen-elemen string dari suatu iterable, misalnya list, menjadi satu string dengan pemisah yang ditentukan.
+
+7. Bagaimana memeriksa apakah kata 'data' terdapat dalam suatu string?
+
+Gunakan operator keanggotaan in, misalnya: 'data' in teks. Ekspresi tersebut menghasilkan True jika substring 'data' ditemukan dan False jika tidak ditemukan. Untuk pencarian tanpa membedakan huruf besar-kecil, teks dapat diubah terlebih dahulu menggunakan lower().
+
+8. Apa arti hasil -1 dari find()?
+
+Hasil -1 dari find() berarti substring yang dicari tidak ditemukan di dalam string. Jika ditemukan, find() mengembalikan indeks kemunculan pertama substring tersebut.
+
+9. Mengapa normalisasi teks perlu dilakukan sebelum perbandingan?
+
+Normalisasi diperlukan agar teks memiliki format yang konsisten, misalnya menghapus spasi di awal dan akhir serta menyeragamkan huruf besar-kecil. Dengan demikian, teks seperti 'Python', ' python ', dan 'PYTHON' dapat diproses secara konsisten saat dibandingkan, sesuai kebutuhan.
+
+10. Perintah apa yang digunakan untuk mengirim commit ke GitHub?
+
+Perintah yang digunakan adalah git push. Perintah ini mengirim commit dari repositori lokal ke repositori remote di GitHub.
